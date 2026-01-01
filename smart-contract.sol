@@ -63,7 +63,7 @@ abstract contract ReentrancyGuard {
 }
 
 // MAIN CONTRACT
-contract AurionClub is ReentrancyGuard, Ownable {
+contract TITAN is ReentrancyGuard, Ownable {
     IERC20 public usdtToken;
     
     struct InvestmentPlan {
